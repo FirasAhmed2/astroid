@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: f64076bcaf16e1148b18997d08ce952d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - easyConfig: {fileID: 11400000, guid: 0ef0430f458308e40845d1f110eb733c, type: 2}
+  - mediumConfig: {fileID: 11400000, guid: 094aa4a6f72c9b7428c35672c5277b35, type: 2}
+  - hardConfig: {fileID: 11400000, guid: a3fe4a0e71d6e4e4894ff2c3b2352ddd, type: 2}
+  - easyButton: {instanceID: 0}
+  - mediumButton: {instanceID: 0}
+  - hardButton: {instanceID: 0}
+  - playButton: {instanceID: 0}
+  - quitButton: {instanceID: 0}
+  - menuPanel: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
