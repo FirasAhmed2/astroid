@@ -3,6 +3,7 @@
 // Persists across scene loads so the background music never restarts mid-session.
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -43,25 +44,39 @@ public class AudioManager : MonoBehaviour
 
     private void OnEnable()
     {
-        if (GameManager.Instance != null)
-            GameManager.Instance.OnGameStateChanged += HandleGameStateChanged;
+        SceneManager.sceneLoaded += HandleSceneLoaded;
+        TrySubscribeToGameManager();
     }
 
     private void Start()
     {
         // OnEnable fires before GameManager.Awake() on first load, so we may
         // have missed the subscription — re-wire safely here after all Awakes
-        if (GameManager.Instance != null)
-        {
-            GameManager.Instance.OnGameStateChanged -= HandleGameStateChanged;
-            GameManager.Instance.OnGameStateChanged += HandleGameStateChanged;
-        }
+        TrySubscribeToGameManager();
     }
 
     private void OnDisable()
     {
+        SceneManager.sceneLoaded -= HandleSceneLoaded;
+
         if (GameManager.Instance != null)
             GameManager.Instance.OnGameStateChanged -= HandleGameStateChanged;
+    }
+
+    // Re-try subscribing each time a scene loads — GameManager may not have
+    // existed yet when AudioManager first booted (they live in different scenes)
+    private void HandleSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        TrySubscribeToGameManager();
+    }
+
+    private void TrySubscribeToGameManager()
+    {
+        if (GameManager.Instance == null) return;
+
+        // Unsubscribe first so we never stack duplicate listeners
+        GameManager.Instance.OnGameStateChanged -= HandleGameStateChanged;
+        GameManager.Instance.OnGameStateChanged += HandleGameStateChanged;
     }
 
     // -------------------------------------------------------------------------
@@ -93,20 +108,6 @@ public class AudioManager : MonoBehaviour
         }
 
         buttonClickSFX.Play();
-    }
-
-    /// <summary>
-    /// Sets the background music volume (0–1). Handy for a settings slider.
-    /// </summary>
-    public void SetMusicVolume(float volume)
-    {
-        if (bgMusic == null)
-        {
-            Debug.LogWarning("[AudioManager] bgMusic is not assigned.");
-            return;
-        }
-
-        bgMusic.volume = Mathf.Clamp01(volume);
     }
 
     // -------------------------------------------------------------------------
