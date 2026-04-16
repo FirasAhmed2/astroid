@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fb2faf41a6018ea443dd7b059f9c5a9c80970ab85c4d36c21b5472a619d3e1a0
-size 745
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 56" width="300" height="112">
+  <rect x="0" y="0" width="150" height="56" rx="8" fill="#1a0a0a" stroke="#5c1a1a" stroke-width="1.5"/>
+  <rect x="3" y="3" width="144" height="50" rx="6" fill="#280d0d" stroke="#7a2020" stroke-width="1"/>
+  <rect x="10" y="6" width="130" height="4" rx="2" fill="#c0392b" opacity="0.3"/>
+  <rect x="3" y="8" width="3" height="36" rx="1" fill="#e74c3c" opacity="0.8"/>
+  <text x="75" y="35"
+    font-family="'Arial Black', Impact, sans-serif"
+    font-size="20px" font-weight="900"
+    fill="#e74c3c" text-anchor="middle" letter-spacing="3">HARD</text>
+  <circle cx="12" cy="44" r="2" fill="#5c1a1a"/>
+  <circle cx="138" cy="44" r="2" fill="#5c1a1a"/>
+</svg>

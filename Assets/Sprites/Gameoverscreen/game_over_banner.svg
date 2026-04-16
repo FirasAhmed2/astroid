@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:587d47edefaa3d2aeff77cfb4c64f9af654a5fe19ba22150c3b0a8589a2cbacc
-size 1637
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 110" width="1120" height="220">
+  <rect x="0" y="0" width="560" height="110" rx="10" fill="#1a0505" stroke="#6a0a0a" stroke-width="2"/>
+  <rect x="3" y="3" width="554" height="104" rx="8" fill="#120303" stroke="#8a1010" stroke-width="1"/>
+  <rect x="12" y="5" width="536" height="3" rx="1" fill="#e74c3c" opacity="0.5"/>
+  <rect x="12" y="102" width="536" height="3" rx="1" fill="#e74c3c" opacity="0.3"/>
+  <rect x="3" y="12" width="4" height="86" rx="1" fill="#e74c3c" opacity="0.9"/>
+  <rect x="553" y="12" width="4" height="86" rx="1" fill="#e74c3c" opacity="0.9"/>
+  <circle cx="18" cy="18" r="5" fill="#1f0505" stroke="#6a1010" stroke-width="1.2"/>
+  <circle cx="18" cy="18" r="2" fill="#e74c3c" opacity="0.8"/>
+  <circle cx="542" cy="18" r="5" fill="#1f0505" stroke="#6a1010" stroke-width="1.2"/>
+  <circle cx="542" cy="18" r="2" fill="#e74c3c" opacity="0.8"/>
+  <circle cx="18" cy="92" r="5" fill="#1f0505" stroke="#6a1010" stroke-width="1.2"/>
+  <circle cx="18" cy="92" r="2" fill="#e74c3c" opacity="0.8"/>
+  <circle cx="542" cy="92" r="5" fill="#1f0505" stroke="#6a1010" stroke-width="1.2"/>
+  <circle cx="542" cy="92" r="2" fill="#e74c3c" opacity="0.8"/>
+  <text x="280" y="58"
+    font-family="'Arial Black', Impact, sans-serif"
+    font-size="52px" font-weight="900"
+    fill="#e74c3c" text-anchor="middle" letter-spacing="8">GAME OVER</text>
+  <text x="280" y="88"
+    font-family="'Arial Black', Impact, sans-serif"
+    font-size="14px" font-weight="900"
+    fill="#c0392b" text-anchor="middle" letter-spacing="6" opacity="0.8">YOUR SHIP WAS DESTROYED</text>
+</svg>

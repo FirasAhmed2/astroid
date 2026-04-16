@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bc84f8558147a323a64539367d2e7fd6a04a83f1e626c9c263b42a3c4627179c
-size 380
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Outer ring — stroke only, no fill -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="white" stroke-width="4"/>
+  <!-- Dashed inner ring at 60% radius (60px) -->
+  <circle cx="100" cy="100" r="57" fill="none" stroke="white" stroke-width="2.5" stroke-dasharray="10 6"/>
+</svg>

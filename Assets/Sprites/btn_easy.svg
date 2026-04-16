@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bc7e74c4b793dde624c3271477f3f1d56ca1062748df574538f408e6e5d20adb
-size 745
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 56" width="300" height="112">
+  <rect x="0" y="0" width="150" height="56" rx="8" fill="#0a1f0a" stroke="#1a5c1a" stroke-width="1.5"/>
+  <rect x="3" y="3" width="144" height="50" rx="6" fill="#0d280d" stroke="#226622" stroke-width="1"/>
+  <rect x="10" y="6" width="130" height="4" rx="2" fill="#2d8c2d" opacity="0.3"/>
+  <rect x="3" y="8" width="3" height="36" rx="1" fill="#2ecc71" opacity="0.8"/>
+  <text x="75" y="35"
+    font-family="'Arial Black', Impact, sans-serif"
+    font-size="20px" font-weight="900"
+    fill="#2ecc71" text-anchor="middle" letter-spacing="3">EASY</text>
+  <circle cx="12" cy="44" r="2" fill="#1a5c1a"/>
+  <circle cx="138" cy="44" r="2" fill="#1a5c1a"/>
+</svg>

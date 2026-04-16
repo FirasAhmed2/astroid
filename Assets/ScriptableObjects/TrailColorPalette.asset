@@ -1,3 +1,51 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e2a7046b5a0d7da004e30062ae3ca0caf64b2e1cf125b3e204fa4e4dd4e2e8a9
-size 1939
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a8e1c37eae55b54d899126a8bd9cb09, type: 3}
+  m_Name: TrailColorPalette
+  m_EditorClassIdentifier: Assembly-CSharp::TrailColorPalette
+  colors:
+  - colorName: Inferno
+    tipColor: {r: 1, g: 0.53333336, b: 0, a: 1}
+    midColor: {r: 1, g: 0.13333334, b: 0, a: 1}
+  - colorName: Solar
+    tipColor: {r: 1, g: 1, b: 0.53333336, a: 1}
+    midColor: {r: 1, g: 0.6, b: 0, a: 1}
+  - colorName: Venom
+    tipColor: {r: 0.6666667, g: 1, b: 0.6666667, a: 1}
+    midColor: {r: 0.13333334, g: 0.8, b: 0, a: 1}
+  - colorName: Arctic
+    tipColor: {r: 0.6666667, g: 0.93333334, b: 1, a: 1}
+    midColor: {r: 0, g: 0.4, b: 1, a: 1}
+  - colorName: Void
+    tipColor: {r: 0.8, g: 0.53333336, b: 1, a: 1}
+    midColor: {r: 0.33333334, g: 0, b: 0.8, a: 1}
+  - colorName: Rose
+    tipColor: {r: 1, g: 0.6666667, b: 0.8, a: 1}
+    midColor: {r: 0.8, g: 0, b: 0.33333334, a: 1}
+  - colorName: Glacier
+    tipColor: {r: 0.6666667, g: 1, b: 0.93333334, a: 1}
+    midColor: {r: 0, g: 0.6666667, b: 0.53333336, a: 1}
+  - colorName: Crimson
+    tipColor: {r: 1, g: 0.53333336, b: 0.53333336, a: 1}
+    midColor: {r: 0.6666667, g: 0, b: 0.06666667, a: 1}
+  - colorName: Ghost
+    tipColor: {r: 1, g: 1, b: 1, a: 1}
+    midColor: {r: 0.6666667, g: 0.6666667, b: 0.8, a: 1}
+  - colorName: Copper
+    tipColor: {r: 1, g: 0.8, b: 0.53333336, a: 1}
+    midColor: {r: 0.8, g: 0.26666668, b: 0, a: 1}
+  - colorName: Nebula
+    tipColor: {r: 0.93333334, g: 0.53333336, b: 1, a: 1}
+    midColor: {r: 0.53333336, g: 0, b: 0.8, a: 1}
+  - colorName: Default
+    tipColor: {r: 0.6666667, g: 0.8, b: 1, a: 1}
+    midColor: {r: 0.101960786, g: 0.3529412, b: 0.6666667, a: 1}

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:83fb1c4679e15710e865f710253adfad90a0ff8827621dbed13404593f7f7ecb
-size 320
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64">
+  <circle cx="12" cy="12" r="10" fill="#ff6600" opacity="0.9"/>
+  <circle cx="12" cy="12" r="6"  fill="#ffaa44"/>
+  <circle cx="12" cy="12" r="3"  fill="#ffdd88"/>
+  <circle cx="12" cy="12" r="1.2" fill="#ffffff" opacity="0.9"/>
+</svg>

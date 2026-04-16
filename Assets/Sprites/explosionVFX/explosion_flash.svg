@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4d4e2cdd593f0b95b5fb420c768d260bba243175771d3be014505245553ed69d
-size 1332
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="256" height="256">
+  <circle cx="60" cy="60" r="52" fill="#fff5cc" opacity="0.15"/>
+  <circle cx="60" cy="60" r="38" fill="#ffe566" opacity="0.35"/>
+  <circle cx="60" cy="60" r="26" fill="#ffcc00" opacity="0.7"/>
+  <circle cx="60" cy="60" r="16" fill="#fff0aa" opacity="0.9"/>
+  <circle cx="60" cy="60" r="8"  fill="#ffffff"/>
+  <line x1="60" y1="4"   x2="60" y2="20"  stroke="#ffdd44" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <line x1="60" y1="100" x2="60" y2="116" stroke="#ffdd44" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <line x1="4"  y1="60"  x2="20" y2="60"  stroke="#ffdd44" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <line x1="100" y1="60" x2="116" y2="60" stroke="#ffdd44" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <line x1="18" y1="18"  x2="29" y2="29"  stroke="#ffdd44" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <line x1="91" y1="91"  x2="102" y2="102" stroke="#ffdd44" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <line x1="102" y1="18" x2="91" y2="29"  stroke="#ffdd44" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <line x1="29" y1="91"  x2="18" y2="102" stroke="#ffdd44" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+</svg>

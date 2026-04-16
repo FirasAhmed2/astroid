@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:13c40337d0d6e4802748aee22d808b18f5a7db56631267c932fb5307e389a328
-size 994
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 36" width="1120" height="72">
+  <rect x="0" y="0" width="560" height="36" rx="6" fill="#080f20" stroke="#1a3060" stroke-width="1.5"/>
+  <rect x="3" y="3" width="554" height="30" rx="4" fill="#0a1428" stroke="#0f2040" stroke-width="1"/>
+  <rect x="3" y="3" width="3" height="30" rx="1" fill="#4a90e2" opacity="0.8"/>
+  <rect x="8" y="8" width="380" height="20" rx="3" fill="#1a3a7a" opacity="0.6"/>
+  <rect x="8" y="8" width="380" height="9" rx="3" fill="#2a5aaa" opacity="0.4"/>
+  <rect x="382" y="8" width="4" height="20" rx="1" fill="#4a90e2" opacity="0.9"/>
+  <text x="20" y="23"
+    font-family="'Arial Black', Impact, sans-serif"
+    font-size="11px" font-weight="900"
+    fill="#4a90e2" letter-spacing="2" opacity="0.8">SURVIVAL TIME</text>
+  <text x="540" y="23"
+    font-family="'Arial Black', Impact, sans-serif"
+    font-size="11px" font-weight="900"
+    fill="#8ab8e8" letter-spacing="1" text-anchor="end">00:00</text>
+</svg>

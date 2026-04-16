@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6d541b610b32e9fb87b86127b7e30f4d4b4b7011a597426585d1eb552604fc53
-size 704
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/LoginScene.unity
+    guid: 19577bf0b50c26b44a33cfb5dcaab487
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: db5c902359fc68e438aaaa27963b5afc
+  - enabled: 1
+    path: Assets/Scenes/CustomizationScene.unity
+    guid: 376d5d225b22cd64f871fbe50b760b87
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0

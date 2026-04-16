@@ -1,3 +1,58 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1786df0969c45d7f36c4f85c2ba29675533a827b707d5ff18b12c0d09a2b9447
-size 3225
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -120 200 230" width="512" height="512">
+
+  <ellipse cx="-28" cy="72" rx="10" ry="18" fill="#ff6a00" opacity="0.25"/>
+  <ellipse cx="28" cy="72" rx="10" ry="18" fill="#ff6a00" opacity="0.25"/>
+  <ellipse cx="0" cy="80" rx="14" ry="24" fill="#ff8c00" opacity="0.2"/>
+
+  <polygon points="-28,58 -20,58 -24,88 -32,88" fill="#ff6a00" opacity="0.9"/>
+  <polygon points="-26,60 -22,60 -24,78" fill="#ffcc00" opacity="0.95"/>
+  <polygon points="28,58 20,58 24,88 32,88" fill="#ff6a00" opacity="0.9"/>
+  <polygon points="26,60 22,60 24,78" fill="#ffcc00" opacity="0.95"/>
+  <polygon points="-10,62 10,62 6,95 -6,95" fill="#ff6a00" opacity="0.9"/>
+  <polygon points="-7,64 7,64 4,85 -4,85" fill="#ffcc00" opacity="0.95"/>
+  <polygon points="-4,66 4,66 2,78 -2,78" fill="#ffffff" opacity="0.9"/>
+
+  <polygon points="-18,20 -72,55 -72,65 -52,65 -30,50 -18,40" fill="#1e3a5f" stroke="#152b47" stroke-width="1.5"/>
+  <polygon points="-25,30 -65,58 -65,63 -55,63 -28,42" fill="#254d7a"/>
+  <polygon points="-52,58 -72,65 -72,55 -55,50" fill="#c0392b"/>
+  <polygon points="-52,60 -70,65 -55,65" fill="#e74c3c"/>
+
+  <polygon points="18,20 72,55 72,65 52,65 30,50 18,40" fill="#1e3a5f" stroke="#152b47" stroke-width="1.5"/>
+  <polygon points="25,30 65,58 65,63 55,63 28,42" fill="#254d7a"/>
+  <polygon points="52,58 72,65 72,55 55,50" fill="#c0392b"/>
+  <polygon points="52,60 70,65 55,65" fill="#e74c3c"/>
+
+  <polygon points="0,-95 22,-70 30,-40 32,20 26,58 0,65 -26,58 -32,20 -30,-40 -22,-70"
+    fill="#1e3a5f" stroke="#152b47" stroke-width="2"/>
+  <polygon points="0,-80 16,-55 20,-20 20,35 0,50 -20,35 -20,-20 -16,-55" fill="#254d7a"/>
+  <polygon points="0,-95 -22,-70 -30,-40 -32,20" fill="#2a5298" opacity="0.5"/>
+
+  <ellipse cx="0" cy="-38" rx="16" ry="22" fill="#1a6ea8" stroke="#1a5276" stroke-width="1.5"/>
+  <ellipse cx="0" cy="-38" rx="13" ry="18" fill="#2e86c1"/>
+  <ellipse cx="-4" cy="-46" rx="5" ry="7" fill="#7fb3d3" opacity="0.6"/>
+  <ellipse cx="-3" cy="-48" rx="2.5" ry="3.5" fill="#aed6f1" opacity="0.8"/>
+
+  <rect x="-4" y="-15" width="8" height="55" rx="3" fill="#c0392b"/>
+  <rect x="-3" y="-10" width="6" height="45" rx="2" fill="#e74c3c"/>
+
+  <rect x="-36" y="20" width="16" height="42" rx="5" fill="#152b47" stroke="#0f1f35" stroke-width="1"/>
+  <rect x="-34" y="22" width="12" height="36" rx="4" fill="#1a3558"/>
+  <ellipse cx="-28" cy="58" rx="7" ry="5" fill="#0d1b2a"/>
+  <ellipse cx="-28" cy="57" rx="4" ry="3" fill="#e67e22" opacity="0.9"/>
+
+  <rect x="20" y="20" width="16" height="42" rx="5" fill="#152b47" stroke="#0f1f35" stroke-width="1"/>
+  <rect x="22" y="22" width="12" height="36" rx="4" fill="#1a3558"/>
+  <ellipse cx="28" cy="58" rx="7" ry="5" fill="#0d1b2a"/>
+  <ellipse cx="28" cy="57" rx="4" ry="3" fill="#e67e22" opacity="0.9"/>
+
+  <rect x="-38" y="8" width="5" height="18" rx="2" fill="#0f1f35"/>
+  <rect x="33" y="8" width="5" height="18" rx="2" fill="#0f1f35"/>
+
+  <circle cx="-14" cy="0" r="2.5" fill="#0f1f35"/>
+  <circle cx="14" cy="0" r="2.5" fill="#0f1f35"/>
+  <circle cx="-14" cy="14" r="2.5" fill="#0f1f35"/>
+  <circle cx="14" cy="14" r="2.5" fill="#0f1f35"/>
+
+  <polygon points="0,-95 8,-80 0,-85 -8,-80" fill="#2e86c1"/>
+
+</svg>

@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7c7182bd43c7962df0b199dca25be92d54e57432aabf098bb139b602649f006b
-size 335
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <!-- Outer filled white circle -->
+  <circle cx="40" cy="40" r="38" fill="white"/>
+  <!-- Blue inner circle -->
+  <circle cx="40" cy="40" r="24" fill="#4488FF"/>
+  <!-- Tiny white center dot -->
+  <circle cx="40" cy="40" r="6" fill="white"/>
+</svg>
