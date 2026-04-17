@@ -36,7 +36,6 @@ public class GameManager : MonoBehaviour
     private PlayerController playerController;
     private AsteroidSpawner asteroidSpawner;
     private PowerUpSpawner powerUpSpawner;
-    private PowerUpHUDIndicator powerUpHUDIndicator;
     private ParticleSpawner particleSpawner;
     private CameraShake cameraShake;
 
@@ -105,7 +104,6 @@ public class GameManager : MonoBehaviour
         playerController = FindAnyObjectByType<PlayerController>();
         asteroidSpawner = FindAnyObjectByType<AsteroidSpawner>();
         powerUpSpawner = FindAnyObjectByType<PowerUpSpawner>();
-        powerUpHUDIndicator = FindAnyObjectByType<PowerUpHUDIndicator>();
         particleSpawner = FindAnyObjectByType<ParticleSpawner>();
         cameraShake = FindAnyObjectByType<CameraShake>();
 
@@ -305,7 +303,7 @@ public class GameManager : MonoBehaviour
     private void HandlePowerUpCollected(PowerUpConfig config)
     {
         playerController?.ApplyPowerUp(config);
-        powerUpHUDIndicator?.ShowPowerUp(config);
+        
     }
 
     private void HandlePlayerDied()
