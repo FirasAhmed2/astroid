@@ -91,9 +91,9 @@ cd astroid
 
 > The game loads Login first. Make sure all four scenes are added to **File → Build Settings** in this order:
 > - `Login` (index 0)
-> - `MainMenu` (index 0)
-> - `CustomizationScene` (index 1)
-> - `SampleScene` (index 2)
+> - `MainMenu` (index 1)
+> - `CustomizationScene` (index 2)
+> - `SampleScene` (index 3)
 
 ### Firebase Setup
 
