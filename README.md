@@ -40,10 +40,10 @@ A 2D arcade space game built in Unity where you pilot a spaceship through an end
 
 ## 🏗️ Architecture
 
-The project is built around a clean event-driven architecture with three scenes managed by a persistent `GameManager` singleton.
+The project is built around a clean event-driven architecture with four scenes managed by a persistent `GameManager` singleton.
 
 ```
-MainMenu → CustomizationScene → SampleScene
+Login → MainMenu → CustomizationScene → SampleScene
 ```
 
 ### Design Patterns Used
