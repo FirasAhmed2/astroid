@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "430616668154",
+    "project_id": "asteroiddodger-ec956",
+    "storage_bucket": "asteroiddodger-ec956.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430616668154:android:1100515f3f755ba0a7e643",
+        "android_client_info": {
+          "package_name": "com.firas.asteroiddodger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY5nYDYwSfwn-04jJESlwbPKnDSsX6SWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

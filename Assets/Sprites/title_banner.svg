@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 130" width="1120" height="260">
+  <rect x="0" y="0" width="560" height="130" rx="12" fill="#0a0f1e" stroke="#1a2a5e" stroke-width="1.5"/>
+  <rect x="4" y="4" width="552" height="122" rx="10" fill="#070c1a" stroke="#0d1a3a" stroke-width="1"/>
+  <rect x="20" y="10" width="520" height="2" rx="1" fill="#2a4a9e" opacity="0.6"/>
+  <circle cx="28" cy="22" r="4" fill="#0f1f45" stroke="#1a3070" stroke-width="1"/>
+  <circle cx="28" cy="22" r="1.5" fill="#2a4a9e"/>
+  <circle cx="532" cy="22" r="4" fill="#0f1f45" stroke="#1a3070" stroke-width="1"/>
+  <circle cx="532" cy="22" r="1.5" fill="#2a4a9e"/>
+  <circle cx="28" cy="108" r="4" fill="#0f1f45" stroke="#1a3070" stroke-width="1"/>
+  <circle cx="28" cy="108" r="1.5" fill="#2a4a9e"/>
+  <circle cx="532" cy="108" r="4" fill="#0f1f45" stroke="#1a3070" stroke-width="1"/>
+  <circle cx="532" cy="108" r="1.5" fill="#2a4a9e"/>
+  <text x="280" y="72"
+    font-family="'Arial Black', Impact, sans-serif"
+    font-size="58px" font-weight="900"
+    fill="#c8d8ff" text-anchor="middle" letter-spacing="10">ASTEROID</text>
+  <text x="280" y="112"
+    font-family="'Arial Black', Impact, sans-serif"
+    font-size="28px" font-weight="900"
+    fill="#e74c3c" text-anchor="middle" letter-spacing="18">DODGER</text>
+  <rect x="20" y="118" width="520" height="2" rx="1" fill="#2a4a9e" opacity="0.4"/>
+</svg>
