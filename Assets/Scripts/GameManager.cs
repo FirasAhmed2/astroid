@@ -69,7 +69,7 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-
+        Application.targetFrameRate = 90;
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
